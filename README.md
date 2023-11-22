@@ -13,6 +13,8 @@
 ## Overview
 DiffSeg is an unsupervised zero-shot segmentation method using attention information from a stable-diffusion model. This repo implements the main DiffSeg algorithm and addtionally include an experimental feature to add semantic labels to the masks based on a generated caption.
 
+More details can be found on the project page: https://sites.google.com/corp/view/diffseg/home
+
 ## Create conda environment
 
 - The environment uses Ubuntu 18.04 and Tensorflow 2.14 supported on CUDA 11.x and python 3.9. 
