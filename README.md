@@ -30,4 +30,9 @@ pip install -r path/to/requirements.txt
 ## Jupyter Notebook
 Please see the instructions in the ``diffseg.ipynb`` for running instructions. 
 
-
+## Contributors
+- **Junjiao Tian (Google and Georgia Tech)**
+- **Lavisha Aggarwal (Google)**
+- **Andrea Colaco (Google)**
+- **Zsolt Kira (Georgia Tech)**
+- **Mar Gonzalez-Franco (Google)**  
