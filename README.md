@@ -29,8 +29,12 @@ pip install -r path/to/requirements.txt
 - We recommend using 2 GPUs with a minimum 11G VRAM each, e.g., RTX2080Ti.
 - One GPU is for loading the Stable Diffusion model and the other is for the BLIP captioning model. 
 
-## Jupyter Notebook
+## DiffSeg Notebook
 Please see the instructions in the ``diffseg.ipynb`` for running instructions. 
+
+## Benchmarks
+We benchmark the performance of DiffSeg on [CoCo-Stuff-27](https://github.com/nightrome/cocostuff) and [Cityscapes](https://www.cityscapes-dataset.com/). Please see instructions in ``benchmarks.ipynb``.
+* We follow the evaluation protocol in [PiCIE](https://sites.google.com/view/picie-cvpr2021/home) and use the [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm) for matching predictions and ground truth labels. 
 
 ## Contributors
 - **Junjiao Tian (Google and Georgia Tech)**
